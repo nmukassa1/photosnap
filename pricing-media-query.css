@@ -1,0 +1,788 @@
+@media (min-width: 1104px) {
+
+    /* NAVBAR */
+    
+        #menu{
+            display: none;
+        }
+        #nav-links .container{
+            display: flex;
+            flex-direction: row;
+            gap: 0;
+            justify-self: normal;
+            align-items: center;
+            background-color: white;
+            padding-top: 1em;
+            padding-bottom: 1em;
+        }
+        #nav-links{
+            position: relative;
+            width: 100%;
+            display: block;
+        }
+        nav{
+            display: flex;
+        }
+        #nav-links a:nth-child(3){
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+        #nav-links .invite{
+            background-color: black;
+            color: white;
+            padding: .62em 1em;
+            margin-left: auto;
+        }
+        #nav-links .invite:hover{
+            background: #DFDFDF;
+            color: black;
+        }
+        #nav-links a{
+            width: initial;
+        }
+        .page-links:nth-child(1),
+        .page-links:nth-child(2){
+            margin-right: 4em;
+        }
+        .page-links:first-child{
+            margin-left: auto;
+        }
+        .page-links:nth-child(3){
+            margin-right: 8em;
+        }
+
+        .page-links:hover{
+            opacity: 50%;
+        }
+
+
+
+
+
+        /* TOP */
+
+        .top{
+            display: flex;
+            flex-direction: row-reverse;
+        }
+        .image{
+            width: 100%;
+            height: initial;
+            background-image: url(assets/pricing/desktop/hero.jpg);
+        }
+        .top .container{
+            padding: 10.8em 7em;
+        }
+        .text{
+            width: 24em;
+            position: relative;
+        }
+        .top .bar{
+            width: 6px;
+            height: 100%;
+            left: -7em;
+            
+        }
+
+
+
+
+        /* PRICE CARD */
+
+        .price-section > .container{
+            width: 69em;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .price-card{
+            flex-direction: row;
+        }
+        .timeframe{
+            justify-content: center;
+            gap: 2em;
+        }
+        button:hover{
+            background: #DFDFDF;
+        }
+        .basic button:hover,
+        .business button:hover{
+            color: black;
+        }
+
+
+
+        /* TABLE */
+
+        .table-desktop{
+            display: block;
+            padding: 10em 0;
+        }
+
+
+        table{
+            border-collapse: collapse;
+            width: 46em;
+            margin: 0 auto;
+        }
+        
+        caption{
+            text-align: center;
+            border-bottom: none;
+            padding-bottom: 1.5em;
+            text-transform: uppercase;
+            font-size: 2.5rem;
+            letter-spacing: 4.17px;
+            font-weight: 700;
+        }
+        tr:nth-child(3n + 3){
+            opacity: 1;
+        }
+        th{
+            opacity: 1;
+            text-align: left;
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 2px;
+            font-size: .75rem;
+        }
+        thead th{
+            padding-bottom: 1.5em;
+        }
+        thead tr{
+            border-bottom: 1px solid black;
+        }
+        tbody th{
+            padding: 1.5em 0;
+        }
+        tr{
+            border-bottom: 1px solid #DFDFDF;
+            
+        }
+
+    
+
+        
+
+        .table{
+            display: none;
+        }
+
+
+
+
+        /* BETA */
+
+        .beta{
+            background-image: linear-gradient(hsl(0, 0%, 100%, .0), rgba(0, 0, 0, 0.95)),url(assets/shared/desktop/bg-beta.jpg);
+            color: white;
+        }
+        .beta .bar{
+            height: 100%;
+            width: 6px;
+            left: 0;
+        }
+        .beta .container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 7em;
+            padding-right: 7em;
+        }
+        .text h1{
+            font-size: 2.5rem;
+            line-height: 48px;
+        }
+
+
+
+        .beta .invite:hover,
+        footer .invite:hover{
+            text-decoration: underline white;
+        }
+        .footer-links a:hover{
+            opacity: 50%;
+        }
+
+
+         /* FOOTER */
+
+         footer{
+            display: flex;
+            padding-left: 7em;
+            padding-right: 7em;
+        }
+        .logo-socials{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .socials{
+            margin: 0;
+        }
+        .facebook svg:hover > path{
+            fill: url(#facebook);
+        }
+        .youtube svg:hover > path{
+            fill: url(#youtube);
+        }
+        .twitter svg:hover > path{
+            fill: url(#twitter);
+        }
+        .pinterest svg:hover > path{
+            fill: url(#pinterest);
+        }
+        .instagram svg:hover > path{
+            fill: url(#instagram);
+        }
+        .footer-links{
+            margin: 0 0 0 6.8em;
+        }
+        .invite-copyright{
+            margin-left: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .invite-copyright p{
+            margin: 0;
+        }
+        .invite-copyright a{
+            justify-content: flex-end;
+        }
+
+
+
+
+
+
+
+}        
+
+
+@media (min-width: 900px) and (max-width: 1103px){
+
+    /* NAVBAR */
+    
+        #menu{
+            display: none;
+        }
+        #nav-links .container{
+            display: flex;
+            flex-direction: row;
+            gap: 0;
+            justify-self: normal;
+            align-items: center;
+            background-color: white;
+            padding-top: 1em;
+            padding-bottom: 1em;
+        }
+        #nav-links{
+            position: relative;
+            width: 100%;
+            display: block;
+        }
+        nav{
+            display: flex;
+        }
+        #nav-links a:nth-child(3){
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+        #nav-links .invite{
+            background-color: black;
+            color: white;
+            padding: .62em 1em;
+            margin-left: auto;
+        }
+        #nav-links .invite:hover{
+            background: #DFDFDF;
+            color: black;
+        }
+        #nav-links a{
+            width: initial;
+        }
+        .page-links:nth-child(1),
+        .page-links:nth-child(2){
+            margin-right: 4em;
+        }
+        .page-links:first-child{
+            margin-left: auto;
+        }
+        .page-links:nth-child(3){
+            margin-right: 8em;
+        }
+
+        .page-links:hover{
+            opacity: 50%;
+        }
+
+
+
+
+
+        /* TOP */
+
+        .top{
+            display: flex;
+            flex-direction: row-reverse;
+        }
+        .image{
+            width: 100%;
+            height: initial;
+            background-image: url(assets/pricing/desktop/hero.jpg);
+        }
+        .top .container{
+            padding: 10.8em 7em;
+        }
+        .text{
+            width: 24em;
+            position: relative;
+        }
+        .top .bar{
+            width: 6px;
+            height: 100%;
+            left: -7em;
+            
+        }
+
+
+
+
+        /* PRICE CARD */
+
+        .price-section > .container{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .price-card{
+            flex-direction: row;
+        }
+        .timeframe{
+            justify-content: center;
+            gap: 2em;
+        }
+        button:hover{
+            background: #DFDFDF;
+        }
+        .basic button:hover,
+        .business button:hover{
+            color: black;
+        }
+
+
+
+        /* TABLE */
+
+        .table-desktop{
+            display: block;
+            padding: 10em 0;
+        }
+
+
+        table{
+            border-collapse: collapse;
+            width: 46em;
+            margin: 0 auto;
+        }
+        
+        caption{
+            text-align: center;
+            border-bottom: none;
+            padding-bottom: 1.5em;
+            text-transform: uppercase;
+            font-size: 2.5rem;
+            letter-spacing: 4.17px;
+            font-weight: 700;
+        }
+        tr:nth-child(3n + 3){
+            opacity: 1;
+        }
+        th{
+            opacity: 1;
+            text-align: left;
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 2px;
+            font-size: .75rem;
+        }
+        thead th{
+            padding-bottom: 1.5em;
+        }
+        thead tr{
+            border-bottom: 1px solid black;
+        }
+        tbody th{
+            padding: 1.5em 0;
+        }
+        tr{
+            border-bottom: 1px solid #DFDFDF;
+            
+        }
+
+    
+
+        
+
+        .table{
+            display: none;
+        }
+
+
+
+
+        /* BETA */
+
+        .beta{
+            background-image: linear-gradient(hsl(0, 0%, 100%, .0), rgba(0, 0, 0, 0.95)),url(assets/shared/desktop/bg-beta.jpg);
+            color: white;
+        }
+        .beta .bar{
+            height: 100%;
+            width: 6px;
+            left: 0;
+        }
+        .beta .container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 7em;
+            padding-right: 7em;
+        }
+        .text h1{
+            font-size: 2.5rem;
+            line-height: 48px;
+        }
+
+
+
+        .beta .invite:hover,
+        footer .invite:hover{
+            text-decoration: underline white;
+        }
+        .footer-links a:hover{
+            opacity: 50%;
+        }
+
+
+         /* FOOTER */
+
+         footer{
+            display: flex;
+            padding-left: 7em;
+            padding-right: 7em;
+        }
+        .logo-socials{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .socials{
+            margin: 0;
+        }
+        .facebook svg:hover > path{
+            fill: url(#facebook);
+        }
+        .youtube svg:hover > path{
+            fill: url(#youtube);
+        }
+        .twitter svg:hover > path{
+            fill: url(#twitter);
+        }
+        .pinterest svg:hover > path{
+            fill: url(#pinterest);
+        }
+        .instagram svg:hover > path{
+            fill: url(#instagram);
+        }
+        .footer-links{
+            margin: 0 0 0 6.8em;
+        }
+        .invite-copyright{
+            margin-left: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .invite-copyright p{
+            margin: 0;
+        }
+        .invite-copyright a{
+            justify-content: flex-end;
+        }
+
+
+
+        .facebook path:hover{
+            fill: url(#facebook-gradient);
+        }
+        .youtube path:hover{
+            fill: url(#youtube-gradient);
+        }
+        .twitter path:hover{
+            fill: url(#twitter-gradient);
+        }
+        .pinterest path:hover{
+            fill: url(#pinterest-gradient);
+        }
+        .instagram path:hover{
+            fill: url(#instagram-gradient);
+        }
+
+
+
+
+}        
+
+
+
+/* TABLET */
+@media (min-width: 768px) and (max-width: 899px){
+
+    /* NAVBAR */
+    
+        #menu{
+            display: none;
+        }
+        #nav-links .container{
+            display: flex;
+            flex-direction: row;
+            gap: 0;
+            justify-self: normal;
+            align-items: center;
+            background-color: white;
+            padding-top: 1em;
+            padding-bottom: 1em;
+        }
+        #nav-links{
+            position: relative;
+            width: 100%;
+            display: block;
+        }
+        nav{
+            display: flex;
+        }
+        #nav-links a:nth-child(3){
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+        #nav-links .invite{
+            background-color: black;
+            color: white;
+            padding: .62em 1em;
+            margin-left: auto;
+        }
+        #nav-links .invite:hover{
+            background: #DFDFDF;
+            color: black;
+        }
+        #nav-links a{
+            width: initial;
+        }
+        .page-links:nth-child(1),
+        .page-links:nth-child(2){
+            margin-right: 2em;
+        }
+        .page-links:first-child{
+            margin-left: auto;
+        }
+        .page-links:nth-child(3){
+            margin-right: 6em;
+        }
+
+        .page-links:hover{
+            opacity: 50%;
+        }
+
+
+
+
+
+        /* TOP */
+
+        .top{
+            display: flex;
+            flex-direction: row-reverse;
+        }
+        .image{
+            width: 100%;
+            height: initial;
+            background-image: url(assets/pricing/desktop/hero.jpg);
+        }
+        .top .container{
+            padding: 10.8em 7em;
+        }
+        .text{
+            width: 24em;
+            position: relative;
+        }
+        .top .bar{
+            width: 6px;
+            height: 100%;
+            left: -7em;
+            
+        }
+
+
+
+
+        /* PRICE CARD */
+
+        .price-section > .container{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .price-card{
+            flex-direction: column;
+        }
+        .timeframe{
+            justify-content: center;
+            gap: 2em;
+        }
+
+        .wrapper{
+            position: relative;
+            text-align: left;
+        }
+        .price-holder{
+            position: absolute;
+            top: 0;
+            right: 0;
+            text-align: right;
+        }
+        .price-card p,
+        .price-card button{
+            width: 50%;
+        }
+
+        .pro .bar{
+            width: 6px;
+            height: 100%;
+            left: 0;
+        }
+
+
+
+        /* TABLE */
+
+        .table-desktop{
+            display: block;
+            padding: 10em 0;
+        }
+
+
+        table{
+            border-collapse: collapse;
+            width: 46em;
+            margin: 0 auto;
+        }
+        
+        caption{
+            text-align: center;
+            border-bottom: none;
+            padding-bottom: 1.5em;
+            text-transform: uppercase;
+            font-size: 2.5rem;
+            letter-spacing: 4.17px;
+            font-weight: 700;
+        }
+        tr:nth-child(3n + 3){
+            opacity: 1;
+        }
+        th{
+            opacity: 1;
+            text-align: left;
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 2px;
+            font-size: .75rem;
+        }
+        thead th{
+            padding-bottom: 1.5em;
+        }
+        thead tr{
+            border-bottom: 1px solid black;
+        }
+        tbody th{
+            padding: 1.5em 0;
+        }
+        tr{
+            border-bottom: 1px solid #DFDFDF;
+            
+        }
+
+    
+
+        
+
+        .table{
+            display: none;
+        }
+
+
+
+
+        /* BETA */
+
+        .beta{
+            background-image: linear-gradient(hsl(0, 0%, 100%, .0), rgba(0, 0, 0, 0.95)),url(assets/shared/desktop/bg-beta.jpg);
+            color: white;
+        }
+        .beta .bar{
+            height: 100%;
+            width: 6px;
+            left: 0;
+        }
+        .beta .container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .text h1{
+            font-size: 2.5rem;
+            line-height: 48px;
+        }
+
+
+
+        
+
+
+         /* FOOTER */
+
+         footer{
+            display: flex;
+            position: relative;
+            height: 16em;
+        }
+        .logo-socials{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .socials{
+            margin: 0;
+        }
+        .footer-links{
+            position: absolute;
+            flex-direction: row;
+        }
+        .invite-copyright{
+            margin-left: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .invite-copyright p{
+            margin: 0;
+        }
+        .invite-copyright a{
+            justify-content: flex-end;
+        }
+
+
+
+
+
+
+
+}        

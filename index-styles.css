@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h1, h2, h3, h4, a{
+    font-weight: 700;
+}
+h1{
+    font-size: 2rem;
+    letter-spacing: 3.33px;
+    line-height: 40px;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+p{
+    font-weight: 400;
+    font-size: .9rem;
+    line-height: 25px;
+    opacity: 50%;
+    margin-bottom: 3.43em;
+}
+a{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: .75rem;
+}
+.image img{
+    display: block;
+}
+.link-arrow:hover{
+    text-decoration: underline black;
+}
+
+.social-icon-gradient{
+    height: 0;
+    position: absolute;
+}
+
+
+.container{
+    padding: 4.5em 2em;
+    position: relative;
+}
+
+
+
+/***************/
+/***************/
+
+
+/* NAV */
+
+#menu{
+    cursor: pointer;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .container{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#nav-links .container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-self: center;
+    align-items: center;
+    background-color: white;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+#nav-links a{
+    color: black;
+    width: 100%;
+    text-align: center;
+}
+#nav-links a:nth-child(3){
+    border-bottom: 1px solid #979797;
+    padding-bottom: 20px;
+}
+#nav-links .invite{
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+}
+#nav-links{
+    position: absolute;
+    width: 100%;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+.bar{
+    width: 128px;
+    height: 6px;
+    position: absolute;
+    background-image: linear-gradient(#5A77FF, #BC7198, #FFC593);
+    top: 0;
+}
+
+.image{
+    min-height: 18.4em;
+}
+.create-and-share .image{
+    background-image: url(assets/home/mobile/create-and-share.jpg);
+}
+.beautiful-stories .image{
+    background-image: url(assets/home/mobile/beautiful-stories.jpg);
+}
+.design-for-everyone .image{
+    background-image: url(assets/home/mobile/designed-for-everyone.jpg);
+}
+
+.create-and-share .container{
+    background: black;
+}
+.create-and-share h1,
+.create-and-share p,
+.invite{
+    color: white;
+}
+
+.view{
+    color: black;
+}
+.link-arrow{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+
+
+
+/* STORIES */
+
+.individual-stories{
+    height: 23.4em;
+    color: white;
+}
+.stories p{
+    border-bottom: 1px solid #979797;
+    padding-bottom: 20px;
+}
+.wrapper{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 2em 1.5em;
+}
+.read-story{
+    display: flex;
+    justify-content: space-between;
+}
+.read-story a{
+    color: white;
+    width: 100%;
+}
+
+.mountain{
+    background-image: linear-gradient(hsl(0, 0%, 100%, .0), rgba(0, 0, 0, 0.95)), url(assets/stories/mobile/mountains.jpg);
+}
+.cityscapes{
+    background-image: linear-gradient(hsl(0, 0%, 100%, .0), rgba(0, 0, 0, 0.95)), url(assets/stories/mobile/cityscapes.jpg);
+}
+.voyage{
+    background-image: linear-gradient(hsl(0, 0%, 100%, .0), rgba(0, 0, 0, 0.95)), url(assets/stories/mobile/18-days-voyage.jpg);
+}
+.architecture{
+    background-image: linear-gradient(hsl(0, 0%, 100%, .0), rgba(0, 0, 0, 0.95)), url(assets/stories/mobile/architecturals.jpg);
+}
+
+
+
+/* FEATURES */
+
+.features{
+    text-align: center;
+    padding: 4em 2em;
+}
+.individual-features + .individual-features{
+    margin-top: 4em;
+}
+.individual-features img{
+    margin-bottom: 3em;
+}
+.individual-features h3{
+    margin-bottom: 1em;
+}
+
+
+
+
+/* FOOTER */
+
+footer{
+    background: black;
+    color: white;
+    padding: 3em;
+    text-align: center;
+}
+footer a{
+    color: white;
+}
+
+.socials{
+    margin-top: 2em;
+}
+.socials a + a{
+    margin-left: 1em;
+}
+
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-top: 3em;
+    margin-bottom: 8em;
+}
+
+.invite-copyright p{
+    margin-top: 3em;
+}
+footer .link-arrow{
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
